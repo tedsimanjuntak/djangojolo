@@ -13,3 +13,7 @@ So far, we have dummy data hardcoded in blog.views, we can now add real data to 
 6. post1 = Post(title='Blog 1', content='First post content!', author=user)
 7. post1.save()
 8. to get all posts created by user: user.post_set.all() 
+
+
+pip install django-crispy-forms
+pip install crispy_bootstrap5
